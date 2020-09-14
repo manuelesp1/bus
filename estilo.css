@@ -1,0 +1,26 @@
+.bus{
+    width: 30%;
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-around
+}
+
+.grupo{
+
+    background-color: yellow;
+    width: 30%;
+
+}
+.fila{
+    background-color: green;
+}
+
+.asiento{
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  
+}
+
