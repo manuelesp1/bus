@@ -1,7 +1,9 @@
 <?php
+session_start();
 include("conexion.php");
 
-$asiento = $_POST['nroasiento'];
+$asiento = $_GET['nroasiento'];
+
 mysqli_query($link, "update asientos set estado = 'ocupado' where idasiento = $asiento");
 
 mysqli_close($link);
